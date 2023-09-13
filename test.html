@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+
+<style>
+    body {
+        background: linear-gradient(to bottom, #162e47, #456991); /* Fondo degradado */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    #registration-box {
+        background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+        text-align: center;
+    }
+
+    #registration-box h1 {
+        color: #36475a; /* Color del encabezado */
+    }
+
+    #registration-box label,
+    #registration-box input {
+        display: 10px;
+        margin: 10px;
+    }
+
+    #registration-box input[type="text"],
+    #registration-box input[type="email"] {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    #registration-box input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s; /* Efecto de transición */
+    }
+
+    #registration-box input[type="submit"]:hover {
+        background-color: #0056b3; /* Color de fondo al pasar el cursor */
+    }
+</style>
+</head>
+<body>
+<div id="registration-box">
+    <h1>Registro de Usuario</h1>
+    <form>
+        <label for="username">Nombre de Usuario:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <input type="submit" value="Registrarse">
+    </form>
+</div>
+
+</body>
+</html>
