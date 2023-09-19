@@ -1,0 +1,269 @@
+@charset "UTF-8";
+@-webkit-keyframes typed {
+  /* string 1, char 1 */
+  0%, 0.5436623094% {
+    content: "C";
+  }
+  /* string 1, char 2 */
+  0.5446623094%, 1.0883246187% {
+    content: "Ga";
+  }
+  /* string 1, char 3 */
+  1.0893246187%, 1.6329869281% {
+    content: "Gael";
+  }
+  /* string 1, char 4 */
+  1.6339869281%, 2.1776492375% {
+    content: "Gael ";
+  }
+  /* string 1, char 5 */
+  2.1786492375%, 2.7223115468% {
+    content: "Gael An";
+  }
+  /* string 1, char 6 */
+  2.7233115468%, 3.2669738562% {
+    content: "Gael Ant";
+  }
+  /* string 1, char 7 */
+  3.2679738562%, 3.8116361656% {
+    content: "Gael Anto";
+  }
+  /* string 1, char 8 */
+  3.8126361656%, 4.3562984749% {
+    content: "Gael Anton";
+  }
+  /* string 1, char 9 */
+  4.3572984749%, 4.9009607843% {
+    content: "Gael Antonio";
+  }
+  /* string 1, char 10 */
+  4.9019607843%, 5.4456230937% {
+    content: "Gael Antonio ";
+  }
+  /* string 1, char 11 */
+  5.4466230937%, 5.9902854031% {
+    content: "Gael Antonio Ll";
+  }
+  /* string 1, char 12 */
+  5.9912854031%, 6.5349477124% {
+    content: "Gael Antonio Lla";
+  }
+  /* string 1, char 13 */
+  6.5359477124%, 7.0796100218% {
+    content: "Gael Antonio Llan";
+  }
+  /* string 1, char 14 */
+  7.0806100218%, 7.6242723312% {
+    content: "Gael Antonio Llanas";
+  }
+  /* string 1, char 15 */
+  7.6252723312%, 8.1689346405% {
+    content: "Gael Antonio Llanas ";
+  }
+  /* string 1, char 16 */
+  8.1699346405%, 8.7135969499% {
+    content: "Gael Antonio Llanas D";
+  }
+  /* string 1, char 17 */
+  8.7145969499%, 9.2582592593% {
+    content: "Gael Antonio Llanas De";
+  }
+  /* string 1, char 18 */
+  9.2592592593%, 9.8029215686% {
+    content: "Gael Antonio Llanas Del";
+  }
+  /* string 1, char 19 */
+  9.8039215686%, 10.347583878% {
+    content: "Gael Antonio Llanas Delg";
+  }
+  /* string 1, char 20 */
+  10.348583878%, 10.8922461874% {
+    content: "Gael Antonio Llanas Delga";
+  }
+  /* string 1, char 21 */
+  10.8932461874%, 11.4369084967% {
+    content: "Gael Antonio Llanas Delgad";
+  }
+  /* string 1, char 22 */
+  11.4379084967%, 23.310546841% {
+    content: "Gael Antonio Llanas Delgado!";
+  }
+  /* string 1, char 23 */
+  23.311546841%, 23.7462766885% {
+    content: "Gael Antonio Llanas Delgado";
+  }
+  /* string 1, char 24 */
+  23.7472766885%, 24.1820065359% {
+    content: "Gael Antonio Llanas Delgad";
+  }
+  /* string 1, char 25 */
+  24.1830065359%, 24.6177363834% {
+    content: "Gael Antonio Llanas Delga";
+  }
+  /* string 1, char 26 */
+  24.6187363834%, 25.0534662309% {
+    content: "Gael Antonio Llanas Delg";
+  }
+  /* string 1, char 27 */
+  25.0544662309%, 25.4891960784% {
+    content: "Gael Antonio Llanas Del";
+  }
+  /* string 1, char 28 */
+  25.4901960784%, 25.9249259259% {
+    content: "Gael Antonio Llanas De";
+  }
+  /* string 1, char 29 */
+  25.9259259259%, 26.3606557734% {
+    content: "Gael Antonio Llanas ";
+  }
+  /* string 1, char 30 */
+  26.3616557734%, 26.7963856209% {
+    content: "Gael Antonio Llanas";
+  }
+  /* string 1, char 31 */
+  26.7973856209%, 27.2321154684% {
+    content: "Gael Antonio Llan";
+  }
+  /* string 1, char 32 */
+  27.2331154684%, 27.6678453159% {
+    content: "Gael Antonio Lla";
+  }
+  /* string 1, char 33 */
+  27.6688453159%, 28.1035751634% {
+    content: "Gael Antonio Ll";
+  }
+  /* string 1, char 34 */
+  28.1045751634%, 28.5393050109% {
+    content: "Gael Antonio ";
+  }
+  /* string 1, char 35 */
+  28.5403050109%, 28.9750348584% {
+    content: "Gael Antonio";
+  }
+  /* string 1, char 36 */
+  28.9760348584%, 29.4107647059% {
+    content: "Gael Antoni";
+  }
+  /* string 1, char 37 */
+  29.4117647059%, 29.8464945534% {
+    content: "Gael Anto";
+  }
+  /* string 1, char 38 */
+  29.8474945534%, 30.2822244009% {
+    content: "Gael Ant";
+  }
+  /* string 1, char 39 */
+  30.2832244009%, 30.7179542484% {
+    content: "Gael An";
+  }
+  /* string 1, char 40 */
+  30.7189542484%, 31.1536840959% {
+    content: "Gael ";
+  }
+  /* string 1, char 41 */
+  31.1546840959%, 31.5894139434% {
+    content: "Gael";
+  }
+  /* string 1, char 42 */
+  31.5904139434%, 32.0251437908% {
+    content: "Ga";
+  }
+  /* string 1, char 43 */
+  32.0261437908%, 32.4608736383% {
+    content: "G";
+  }
+  /* string 1, char 44 */
+  32.4618736383%, 37.907496732% {
+    content: "​";
+  }
+  /* string 2, char 1 */
+  37.908496732%, 38.4521590414% {
+    content: "G";
+  }
+  /* string 2, char 2 */
+  38.4531590414%, 38.9968213508% {
+    content: "Git";
+  }
+  
+  /* string 3, char 14 */
+  94.5533769063%, 100% {
+    content: "​";
+  }
+
+  
+}
+@-webkit-keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+@keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+* {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  background-color: #000;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.125), rgba(255, 255, 255, 0)), linear-gradient(to bottom, #000, #000 2px, #111 3px);
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover, 100% 3px;
+  font-size: calc(10px + 2vw);
+  font-family: 'VT323', monospace, sans-serif;
+  color: #3f3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body::after {
+  content: "​";
+  position: relative;
+  top: -13px;
+  display: inline-block;
+  padding-right: 3px;
+  padding-right: calc(3px + 0.1vw);
+  border-right: 10px solid rgba(51, 255, 51, 0.75);
+  border-right: calc(1.1vw + 4px) solid rgba(51, 255, 51, 0.75);
+  text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+  white-space: nowrap;
+  -webkit-animation: typed 18.36s linear 1s infinite, beam-blink 1s infinite;
+          animation: typed 18.36s linear 1s infinite, beam-blink 1s infinite;
+}
+@media (max-width: 575px) {
+  body::after {
+    top: -33px;
+  }
+}
+body::before {
+  content: "3 strings / 52 chars / 18.36s duration";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 3px 0;
+  background: #00f;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  white-space: pre-wrap;
+}
+@media (max-width: 575px) {
+  body::before {
+    content: "3 strings \a 52 chars \a 18.36s duration";
+  }
+}
