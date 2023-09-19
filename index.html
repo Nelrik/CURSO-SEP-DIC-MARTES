@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yopi</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #nombre-container {
+            font-size: 4rem;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: move 4s ease infinite alternate, color-change 1s infinite;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateX(-20px);
+            }
+            100% {
+                transform: translateX(20px);
+            }
+        }
+
+        @keyframes color-change {
+            0%, 100% {
+                color: #fff;
+            }
+            50% {
+                color: #FF5733;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="nombre-container">
+        omar uriel valdés orzua
+    </div>
+    <script>
+        // Función para generar movimiento interactivo
+        const nombreContainer = document.getElementById("nombre-container");
+        let direction = 1;
+
+        nombreContainer.addEventListener("mouseover", () => {
+            direction *= -1;
+            nombreContainer.style.animationDirection = direction === 1 ? "alternate" : "alternate-reverse";
+        });
+    </script>
+</body>
+</html>
