@@ -5,18 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nombre</title>
     <style>
-
         body {
             display: flex;
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh; 
-            margin: 0; 
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
             font-family: 'Cursive', cursive;
             font-weight: bold;
-            font-size: 24px; 
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-            background-color: rgb(228, 180, 238); 
+            font-size: 48px;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+            background: linear-gradient(45deg, #E4B4EE, #7EA0E4);
+            color: #6a00f5;
+            overflow: hidden;
+        }
+    
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.2) 10px, rgba(255, 255, 255, 0.2) 20px);
+            pointer-events: none;
+        }
+    
+        body::after {
+            content: 'Jorge Neira';
+            position: absolute;
+            opacity: 0.2;
+            font-size: 200px;
+            font-weight: bold;
+            transform: translate(-35%, -55%); /* Centrar el texto en el medio */
+            top: 50%;
+            left: 50%;
         }
     </style>
 </head>
