@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 body {
-    background: rgb(79,38,175);
-    background: linear-gradient(90deg, rgba(79,38,175,1) 0%, rgba(253,29,29,0.44861694677871145) 53%, rgba(252,176,69,1) 100%);
+background: rgb(79,38,175);
+background: linear-gradient(90deg, rgba(79,38,175,1) 0%, rgba(29,146,253,0.44861694677871145) 53%, rgba(252,176,69,1) 100%);
   
 }
 
